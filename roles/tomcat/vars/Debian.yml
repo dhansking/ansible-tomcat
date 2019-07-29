@@ -1,0 +1,5 @@
+---
+JAVA_HOME: /usr/lib/jvm/default-java
+
+$ vim tomcat/vars/RedHat.yml
+JAVA_HOME: /usr/lib/jvm/jre

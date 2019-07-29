@@ -1,8 +1,3 @@
-- name: Add EPEL repository
-  yum:
-    name: epel-release
-    state: present
-
 - name: Install basic packages
   package:
     name: ['vim','bash-completion','tmux','tree','htop','wget','unzip','curl','git']

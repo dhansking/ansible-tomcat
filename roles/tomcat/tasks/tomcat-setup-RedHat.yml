@@ -1,3 +1,4 @@
+---
 - name: Add EPEL repository
   yum:
     name: epel-release

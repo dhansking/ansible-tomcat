@@ -4,5 +4,5 @@
   with_first_found:
     - "{{ ansible_distribution }}{{ ansible_distribution_major_version }}.yml"
     - "{{ ansible_os_family }}.yml"
-
+  skip: true
 - include_tasks: "tomcat-setup-RedHat.yml"

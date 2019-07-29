@@ -1,4 +1,3 @@
 ---
 - name: Add the OS specific variables
-  include_vars: "{{ item }}"
 - include_tasks: "tomcat-setup-RedHat.yml"
